@@ -1,0 +1,10 @@
+id: node.genre.teaser
+uuid: aca83800-01a2-4593-a612-187ae8259a17
+targetEntityType: node
+bundle: genre
+mode: teaser
+content: {  }
+hidden:
+  langcode: true
+  body: true
+status: true

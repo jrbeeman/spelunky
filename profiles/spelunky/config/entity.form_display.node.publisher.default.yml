@@ -1,0 +1,21 @@
+id: node.publisher.default
+uuid: ac18419d-2a09-439c-b700-da7f34e89b22
+targetEntityType: node
+bundle: publisher
+mode: default
+content:
+  title:
+    type: string
+    weight: -5
+    settings:
+      size: '60'
+      placeholder: ''
+  field_logo:
+    weight: -4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    type: image_image
+hidden:
+  body: true
+status: true

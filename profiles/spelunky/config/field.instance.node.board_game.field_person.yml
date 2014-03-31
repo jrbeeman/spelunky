@@ -1,0 +1,21 @@
+id: node.board_game.field_person
+uuid: b9e6620a-c16e-4eb0-b332-509ae543512f
+status: true
+langcode: en
+field_uuid: 45543e57-054f-4ec3-9a05-5c5366b785da
+field_name: field_person
+entity_type: node
+bundle: board_game
+label: Designer
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: _none
+field_type: entity_reference

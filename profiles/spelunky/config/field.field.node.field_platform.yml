@@ -1,0 +1,14 @@
+id: node.field_platform
+uuid: 0511dc75-3e42-4593-8b04-4c7f1d897de0
+status: true
+langcode: en
+name: field_platform
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }

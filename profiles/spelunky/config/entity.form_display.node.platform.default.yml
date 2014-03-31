@@ -1,0 +1,21 @@
+id: node.platform.default
+uuid: 56c05567-6539-48c0-8a00-e640936186cd
+targetEntityType: node
+bundle: platform
+mode: default
+content:
+  title:
+    type: string
+    weight: -5
+    settings:
+      size: '60'
+      placeholder: ''
+  field_logo:
+    weight: -4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    type: image_image
+hidden:
+  body: true
+status: true
