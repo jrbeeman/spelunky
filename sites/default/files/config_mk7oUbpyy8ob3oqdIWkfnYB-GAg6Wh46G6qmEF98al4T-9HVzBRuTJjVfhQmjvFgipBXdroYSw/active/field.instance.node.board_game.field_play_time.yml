@@ -1,0 +1,16 @@
+id: node.board_game.field_play_time
+uuid: 52f79f80-a4a2-4c88-b909-09fc460e9e63
+status: true
+langcode: en
+field_uuid: a71ebb30-d27b-4c3a-9501-1b41f7d8737a
+field_name: field_play_time
+entity_type: node
+bundle: board_game
+label: 'Playing time'
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: 0
+field_type: text

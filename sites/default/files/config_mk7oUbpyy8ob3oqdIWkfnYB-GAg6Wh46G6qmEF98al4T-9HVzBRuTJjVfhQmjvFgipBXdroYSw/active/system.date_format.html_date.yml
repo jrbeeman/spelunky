@@ -1,0 +1,9 @@
+id: html_date
+label: 'HTML Date'
+status: true
+uuid: f37fc8a7-5b7a-464d-9405-5b80acf51fc0
+langcode: en
+locked: true
+pattern:
+  php: Y-m-d
+  intl: yyyy-MM-dd

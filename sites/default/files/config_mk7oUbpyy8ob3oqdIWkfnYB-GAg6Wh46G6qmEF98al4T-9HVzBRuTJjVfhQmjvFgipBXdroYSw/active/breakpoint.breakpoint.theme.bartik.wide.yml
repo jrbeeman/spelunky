@@ -1,0 +1,12 @@
+id: theme.bartik.wide
+name: wide
+label: wide
+mediaQuery: 'all and (min-width: 851px)'
+source: bartik
+sourceType: theme
+weight: 2
+multipliers:
+  1x: 1x
+status: true
+uuid: 46c55ffe-d899-43a3-8a36-540159b01115
+langcode: en

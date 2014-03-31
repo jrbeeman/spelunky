@@ -1,0 +1,9 @@
+id: short
+label: 'Default short date'
+status: true
+uuid: fdfed980-33d8-4ed8-a04e-7839b088539c
+langcode: en
+locked: false
+pattern:
+  php: 'm/d/Y - H:i'
+  intl: 'MM/dd/yyyy - kk:mm'

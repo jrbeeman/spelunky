@@ -1,0 +1,4 @@
+id: user.register
+label: Register
+status: true
+targetEntityType: user

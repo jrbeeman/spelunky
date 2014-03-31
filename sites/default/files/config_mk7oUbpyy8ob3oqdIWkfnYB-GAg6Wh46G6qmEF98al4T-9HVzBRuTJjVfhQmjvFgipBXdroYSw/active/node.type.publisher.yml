@@ -1,0 +1,18 @@
+type: publisher
+name: Publisher
+description: ''
+help: ''
+has_title: true
+title_label: Name
+settings:
+  node:
+    preview: 1
+    options:
+      status: true
+      revision: true
+      promote: false
+      sticky: false
+    submitted: false
+status: true
+uuid: fa03fb40-bca4-426e-9906-6f06547166fd
+langcode: en

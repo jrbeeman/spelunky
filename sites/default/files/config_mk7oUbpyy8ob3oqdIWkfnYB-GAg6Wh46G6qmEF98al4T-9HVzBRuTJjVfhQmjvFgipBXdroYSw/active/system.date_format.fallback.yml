@@ -1,0 +1,9 @@
+id: fallback
+label: 'Fallback date format'
+status: true
+uuid: 16451886-80ed-4b4e-b32f-47d7829f0239
+langcode: en
+locked: true
+pattern:
+  php: 'D, m/d/Y - H:i'
+  intl: 'ccc, MM/dd/yyyy - kk:mm'

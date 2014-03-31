@@ -1,0 +1,21 @@
+id: node.board_game.field_genre
+uuid: 45bd74eb-bbac-449f-a200-f4277cc5b61e
+status: true
+langcode: en
+field_uuid: 5da0c187-271d-45d4-9d00-a73ca34b4f07
+field_name: field_genre
+entity_type: node
+bundle: board_game
+label: Genre
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      genre: genre
+    sort:
+      field: _none
+field_type: entity_reference

@@ -1,0 +1,8 @@
+id: user_block_user_action
+label: 'Block the selected user(s)'
+status: true
+uuid: 0da85efa-d940-4763-9210-1661c27239db
+langcode: en
+type: user
+plugin: user_block_user_action
+configuration: {  }

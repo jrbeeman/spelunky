@@ -1,0 +1,21 @@
+id: seven_login
+weight: 0
+status: false
+uuid: 6bd54f60-bec4-486f-9816-220a19f5d79c
+langcode: en
+theme: seven
+region: '-1'
+plugin: user_login_block
+settings:
+  label: 'User login'
+  module: user
+  label_display: visible
+  cache: -1
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types: {  }

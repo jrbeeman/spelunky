@@ -1,0 +1,9 @@
+id: html_year
+label: 'HTML Year'
+status: true
+uuid: 7368a785-632e-42e9-bc21-33f12062f728
+langcode: en
+locked: true
+pattern:
+  php: Y
+  intl: Y

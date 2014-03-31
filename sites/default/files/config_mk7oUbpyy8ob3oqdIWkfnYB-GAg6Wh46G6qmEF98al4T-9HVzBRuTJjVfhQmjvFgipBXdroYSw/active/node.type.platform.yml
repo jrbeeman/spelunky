@@ -1,0 +1,18 @@
+type: platform
+name: Platform
+description: ''
+help: ''
+has_title: true
+title_label: Name
+settings:
+  node:
+    preview: 1
+    options:
+      status: true
+      revision: true
+      promote: false
+      sticky: false
+    submitted: false
+status: true
+uuid: 92d9b24a-bb09-4fe6-9e04-4d1a812bf147
+langcode: en

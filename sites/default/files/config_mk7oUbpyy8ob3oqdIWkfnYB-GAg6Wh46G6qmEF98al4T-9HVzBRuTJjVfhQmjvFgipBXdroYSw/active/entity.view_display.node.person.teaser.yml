@@ -1,0 +1,10 @@
+id: node.person.teaser
+uuid: b2bffd93-0fa3-4d12-af00-c2037d7cf7fb
+targetEntityType: node
+bundle: person
+mode: teaser
+content: {  }
+hidden:
+  langcode: true
+  body: true
+status: true

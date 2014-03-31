@@ -1,0 +1,18 @@
+type: developer
+name: Developer
+description: ''
+help: ''
+has_title: true
+title_label: Name
+settings:
+  node:
+    preview: 1
+    options:
+      status: true
+      revision: true
+      promote: false
+      sticky: false
+    submitted: false
+status: true
+uuid: 2bb7194b-bc8b-4396-8d2a-42a099ac35d9
+langcode: en

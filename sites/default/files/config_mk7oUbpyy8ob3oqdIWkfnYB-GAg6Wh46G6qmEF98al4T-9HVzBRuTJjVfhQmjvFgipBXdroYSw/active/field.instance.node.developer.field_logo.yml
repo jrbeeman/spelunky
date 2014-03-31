@@ -1,0 +1,30 @@
+id: node.developer.field_logo
+uuid: 5afa99e3-09ee-4b33-8700-f7f70aeaa52d
+status: true
+langcode: en
+field_uuid: 57220fad-5943-4294-be00-cbcf8a259491
+field_name: field_logo
+entity_type: node
+bundle: developer
+label: Logo
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  file_directory: image/logo
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    fid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

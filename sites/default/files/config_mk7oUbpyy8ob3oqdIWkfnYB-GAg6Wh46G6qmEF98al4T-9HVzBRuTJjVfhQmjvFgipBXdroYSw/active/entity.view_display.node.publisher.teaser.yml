@@ -1,0 +1,10 @@
+id: node.publisher.teaser
+uuid: e15a7953-2dc3-40ca-b500-c192c279c4cf
+targetEntityType: node
+bundle: publisher
+mode: teaser
+content: {  }
+hidden:
+  langcode: true
+  body: true
+status: true

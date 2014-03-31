@@ -1,0 +1,18 @@
+type: person
+name: Person
+description: ''
+help: ''
+has_title: true
+title_label: Name
+settings:
+  node:
+    preview: 1
+    options:
+      status: true
+      revision: true
+      promote: false
+      sticky: false
+    submitted: false
+status: true
+uuid: 9020ae29-5e52-492c-b202-2e61806cc72d
+langcode: en

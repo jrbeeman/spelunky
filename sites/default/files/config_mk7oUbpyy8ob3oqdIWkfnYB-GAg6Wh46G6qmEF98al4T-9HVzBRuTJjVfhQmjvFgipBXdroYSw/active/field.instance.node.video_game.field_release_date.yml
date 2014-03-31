@@ -1,0 +1,15 @@
+id: node.video_game.field_release_date
+uuid: 5a63fbff-d9aa-4113-840c-1237dc79f36e
+status: true
+langcode: en
+field_uuid: 6df18d6d-8e5c-4c2a-a300-b1bcc85dce6e
+field_name: field_release_date
+entity_type: node
+bundle: video_game
+label: 'Release date'
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: datetime

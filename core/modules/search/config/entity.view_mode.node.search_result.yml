@@ -1,0 +1,5 @@
+id: node.search_result
+label: 'Search result'
+status: false
+cache: true
+targetEntityType: node

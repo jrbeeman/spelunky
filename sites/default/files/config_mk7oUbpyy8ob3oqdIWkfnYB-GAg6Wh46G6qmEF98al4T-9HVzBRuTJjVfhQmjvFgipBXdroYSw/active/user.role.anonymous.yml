@@ -1,0 +1,9 @@
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+permissions:
+  - 'use text format plain_text'
+  - 'access content'
+status: true
+uuid: 913e3a97-52a5-4467-8406-6a31d6af07e9
+langcode: en

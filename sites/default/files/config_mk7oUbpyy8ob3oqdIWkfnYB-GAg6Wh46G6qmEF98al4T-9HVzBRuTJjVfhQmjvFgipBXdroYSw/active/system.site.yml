@@ -1,0 +1,11 @@
+uuid: 4e91207e-6c6a-44d7-9607-7d52840b8113
+name: spelunky.local
+mail: jeff.beeman@acquia.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: user
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en

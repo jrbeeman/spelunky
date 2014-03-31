@@ -1,0 +1,7 @@
+id: user_search
+label: Users
+status: true
+langcode: en
+path: user
+plugin: user_search
+configuration: {  }

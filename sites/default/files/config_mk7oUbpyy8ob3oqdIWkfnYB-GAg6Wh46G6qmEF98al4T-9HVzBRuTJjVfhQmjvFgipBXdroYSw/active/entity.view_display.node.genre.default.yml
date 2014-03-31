@@ -1,0 +1,10 @@
+id: node.genre.default
+uuid: d17dbac8-b4a0-4abe-ac09-0959406f77fc
+targetEntityType: node
+bundle: genre
+mode: default
+content: {  }
+hidden:
+  langcode: true
+  body: true
+status: true

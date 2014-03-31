@@ -1,0 +1,7 @@
+id: user.full
+label: 'User account'
+targetEntityType: user
+status: false
+cache: true
+uuid: 947b44eb-8173-4658-9900-c9a670dc9caa
+langcode: en
