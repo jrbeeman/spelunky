@@ -1,9 +1,0 @@
-id: html_date
-label: 'HTML Date'
-status: true
-uuid: 7f43f3f9-c76c-4484-be06-6f951273269a
-langcode: en
-locked: true
-pattern:
-  php: Y-m-d
-  intl: yyyy-MM-dd

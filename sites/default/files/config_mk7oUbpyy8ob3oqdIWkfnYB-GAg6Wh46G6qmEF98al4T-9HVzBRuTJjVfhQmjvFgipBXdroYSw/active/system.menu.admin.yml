@@ -1,7 +1,0 @@
-id: admin
-label: Administration
-description: 'Contains links to administrative tasks.'
-status: true
-uuid: 9559b1fe-f347-4553-ab42-6673c7091be3
-langcode: en
-locked: true

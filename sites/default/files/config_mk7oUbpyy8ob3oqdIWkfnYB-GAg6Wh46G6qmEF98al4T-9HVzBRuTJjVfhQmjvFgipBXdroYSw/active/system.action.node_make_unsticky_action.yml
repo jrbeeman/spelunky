@@ -1,8 +1,0 @@
-id: node_make_unsticky_action
-label: 'Make content unsticky'
-status: true
-uuid: dfb7240c-51ee-45a7-9200-c8a7344f65e8
-langcode: en
-type: node
-plugin: node_make_unsticky_action
-configuration: {  }

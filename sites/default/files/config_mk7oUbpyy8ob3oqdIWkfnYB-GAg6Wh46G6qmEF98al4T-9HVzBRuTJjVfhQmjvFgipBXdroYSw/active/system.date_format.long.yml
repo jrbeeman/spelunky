@@ -1,9 +1,0 @@
-id: long
-label: 'Default long date'
-status: true
-uuid: 72115286-31a0-48fc-8b5d-937c6cdf1843
-langcode: en
-locked: false
-pattern:
-  php: 'l, F j, Y - H:i'
-  intl: 'EEEE, LLLL d, yyyy - kk:mm'

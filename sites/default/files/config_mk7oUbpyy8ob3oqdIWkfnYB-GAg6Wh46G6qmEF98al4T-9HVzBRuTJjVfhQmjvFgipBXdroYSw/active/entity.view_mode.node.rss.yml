@@ -1,7 +1,0 @@
-id: node.rss
-label: RSS
-targetEntityType: node
-status: false
-cache: true
-uuid: 8a52993f-4ca0-4a2c-b600-a02c9c571ffe
-langcode: en

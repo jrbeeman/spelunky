@@ -1,9 +1,0 @@
-id: html_week
-label: 'HTML Week'
-status: true
-uuid: 3cb6301a-ee81-4780-b407-7a85832fc4ad
-langcode: en
-locked: true
-pattern:
-  php: Y-\WW
-  intl: 'Y-''W''WW'

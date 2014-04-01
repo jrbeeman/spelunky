@@ -1,9 +1,0 @@
-id: html_yearless_date
-label: 'HTML Yearless date'
-status: true
-uuid: d5eb63de-4fda-4167-b206-6d95bbb9e73f
-langcode: en
-locked: true
-pattern:
-  php: m-d
-  intl: MM-d

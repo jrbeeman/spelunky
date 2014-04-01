@@ -1,9 +1,0 @@
-id: medium
-label: 'Default medium date'
-status: true
-uuid: 927f0fb3-7762-4f86-8400-f89e98d13634
-langcode: en
-locked: false
-pattern:
-  php: 'D, m/d/Y - H:i'
-  intl: 'ccc, MM/dd/yyyy - kk:mm'

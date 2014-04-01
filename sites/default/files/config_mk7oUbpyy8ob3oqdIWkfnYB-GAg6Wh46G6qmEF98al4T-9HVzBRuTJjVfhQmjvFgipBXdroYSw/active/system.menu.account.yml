@@ -1,7 +1,0 @@
-id: account
-label: 'User account menu'
-description: 'Links related to the user account.'
-status: true
-uuid: 898fccb3-d6c1-4a8a-9900-a55101b6a367
-langcode: en
-locked: true

@@ -1,9 +1,0 @@
-id: html_year
-label: 'HTML Year'
-status: true
-uuid: b6691f8c-aaa5-4fa7-9658-889a98cd5d98
-langcode: en
-locked: true
-pattern:
-  php: Y
-  intl: Y

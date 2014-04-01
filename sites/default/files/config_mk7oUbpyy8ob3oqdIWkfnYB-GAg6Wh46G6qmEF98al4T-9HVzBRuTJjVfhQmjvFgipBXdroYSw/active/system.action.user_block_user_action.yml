@@ -1,8 +1,0 @@
-id: user_block_user_action
-label: 'Block the selected user(s)'
-status: true
-uuid: 16772b72-95f3-426b-862d-45cad14367b7
-langcode: en
-type: user
-plugin: user_block_user_action
-configuration: {  }

@@ -1,9 +1,0 @@
-id: html_time
-label: 'HTML Time'
-status: true
-uuid: b0acc76b-20b8-45a1-9300-d93e1399c343
-langcode: en
-locked: true
-pattern:
-  php: 'H:i:s'
-  intl: 'H:mm:ss'

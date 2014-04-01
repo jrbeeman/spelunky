@@ -1,7 +1,0 @@
-id: node.full
-label: 'Full content'
-targetEntityType: node
-status: false
-cache: true
-uuid: 0108b9a6-c8d1-4007-a506-0662fcddbfb5
-langcode: en

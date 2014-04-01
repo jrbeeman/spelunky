@@ -1,7 +1,0 @@
-id: taxonomy_term.full
-label: 'Taxonomy term page'
-targetEntityType: taxonomy_term
-status: false
-cache: true
-uuid: acc2191b-683d-412a-9d02-023730aaa97f
-langcode: en
