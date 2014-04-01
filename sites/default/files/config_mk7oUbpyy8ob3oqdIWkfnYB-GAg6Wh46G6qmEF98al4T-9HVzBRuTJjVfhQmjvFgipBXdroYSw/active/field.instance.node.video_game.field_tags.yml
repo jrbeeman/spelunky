@@ -1,0 +1,15 @@
+id: node.video_game.field_tags
+uuid: b26add46-5435-406c-8f08-8a1e6d9d858a
+status: true
+langcode: en
+field_uuid: 86d77f60-93cb-458b-9206-6fa2ab6c0a24
+field_name: field_tags
+entity_type: node
+bundle: video_game
+label: Tags
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: taxonomy_term_reference

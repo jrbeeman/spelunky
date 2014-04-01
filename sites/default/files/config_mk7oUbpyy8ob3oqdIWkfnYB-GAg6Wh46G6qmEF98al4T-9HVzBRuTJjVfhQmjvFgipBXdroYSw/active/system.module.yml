@@ -27,6 +27,6 @@ enabled:
   toolbar: 0
   update: 0
   user: 0
-  views: 0
   views_ui: 0
-  minimal: 1000
+  views: 10
+  spelunky: 1000

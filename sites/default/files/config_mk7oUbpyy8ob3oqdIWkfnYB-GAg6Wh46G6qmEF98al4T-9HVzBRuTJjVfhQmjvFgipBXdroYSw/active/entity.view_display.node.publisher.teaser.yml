@@ -3,8 +3,14 @@ uuid: e15a7953-2dc3-40ca-b500-c192c279c4cf
 targetEntityType: node
 bundle: publisher
 mode: teaser
-content: {  }
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
 hidden:
   langcode: true
-  body: true
+  field_logo: true
 status: true

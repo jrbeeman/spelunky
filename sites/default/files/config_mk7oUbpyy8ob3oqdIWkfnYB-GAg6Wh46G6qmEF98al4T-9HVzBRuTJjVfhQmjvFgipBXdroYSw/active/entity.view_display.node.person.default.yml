@@ -3,8 +3,12 @@ uuid: b0ef91dd-ab74-4e83-9007-7a12aff56305
 targetEntityType: node
 bundle: person
 mode: default
-content: {  }
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: -4
+    settings: {  }
 hidden:
   langcode: true
-  body: true
 status: true

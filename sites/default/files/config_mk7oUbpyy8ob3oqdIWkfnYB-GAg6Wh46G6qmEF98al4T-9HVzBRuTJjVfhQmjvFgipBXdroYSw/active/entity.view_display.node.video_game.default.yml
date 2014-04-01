@@ -56,6 +56,11 @@ content:
       rel: ''
       target: ''
     type: link
+  field_tags:
+    weight: 4
+    label: above
+    settings: {  }
+    type: taxonomy_term_reference_link
 hidden:
   langcode: true
 status: true

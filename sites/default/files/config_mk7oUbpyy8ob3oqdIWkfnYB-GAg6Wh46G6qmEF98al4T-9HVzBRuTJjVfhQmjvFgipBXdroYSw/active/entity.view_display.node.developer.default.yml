@@ -11,7 +11,11 @@ content:
       image_style: ''
       image_link: ''
     type: image
+  body:
+    label: hidden
+    type: text_default
+    weight: -2
+    settings: {  }
 hidden:
   langcode: true
-  body: true
 status: true

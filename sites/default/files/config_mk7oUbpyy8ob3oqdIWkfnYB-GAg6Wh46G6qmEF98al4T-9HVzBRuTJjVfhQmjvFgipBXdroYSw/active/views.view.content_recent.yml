@@ -465,5 +465,5 @@ label: 'Recent content'
 module: views
 id: content_recent
 tag: default
-uuid: 80391799-23b2-4bd8-ba00-c4182b8e8041
+uuid: 7f6ec230-cd39-457e-ad4b-75cf53fb168d
 langcode: en

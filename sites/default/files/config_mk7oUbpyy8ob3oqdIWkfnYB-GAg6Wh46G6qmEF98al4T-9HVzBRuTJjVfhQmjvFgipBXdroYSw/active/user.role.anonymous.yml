@@ -4,6 +4,7 @@ weight: 0
 permissions:
   - 'use text format plain_text'
   - 'access content'
+  - 'use text format restricted_html'
 status: true
-uuid: 913e3a97-52a5-4467-8406-6a31d6af07e9
+uuid: d6502fed-71a0-4065-bd08-8d356eb1687d
 langcode: en

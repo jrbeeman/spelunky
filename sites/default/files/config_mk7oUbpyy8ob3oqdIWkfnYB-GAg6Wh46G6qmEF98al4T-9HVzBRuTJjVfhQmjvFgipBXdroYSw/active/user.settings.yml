@@ -1,4 +1,4 @@
-admin_role: ''
+admin_role: administrator
 anonymous: Anonymous
 verify_mail: true
 notify:

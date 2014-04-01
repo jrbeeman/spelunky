@@ -52,6 +52,11 @@ content:
     label: above
     settings: {  }
     type: text_default
+  field_tags:
+    weight: 4
+    label: above
+    settings: {  }
+    type: taxonomy_term_reference_link
 hidden:
   langcode: true
   field_designer: true

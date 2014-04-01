@@ -3,8 +3,12 @@ uuid: d17dbac8-b4a0-4abe-ac09-0959406f77fc
 targetEntityType: node
 bundle: genre
 mode: default
-content: {  }
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: -4
+    settings: {  }
 hidden:
   langcode: true
-  body: true
 status: true

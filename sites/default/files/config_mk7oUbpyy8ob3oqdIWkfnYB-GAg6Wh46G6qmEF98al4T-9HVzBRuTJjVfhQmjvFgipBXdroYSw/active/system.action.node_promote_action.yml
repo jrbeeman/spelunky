@@ -1,7 +1,7 @@
 id: node_promote_action
 label: 'Promote content to front page'
 status: true
-uuid: bfad3381-d2bc-42a3-b200-bc8bb0fd55e8
+uuid: 282456aa-e62e-43e5-a22f-4770dd8b8853
 langcode: en
 type: node
 plugin: node_promote_action

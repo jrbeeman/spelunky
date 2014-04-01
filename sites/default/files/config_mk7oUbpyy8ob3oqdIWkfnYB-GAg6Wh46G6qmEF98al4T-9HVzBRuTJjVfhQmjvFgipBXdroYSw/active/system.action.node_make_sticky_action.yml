@@ -1,7 +1,7 @@
 id: node_make_sticky_action
 label: 'Make content sticky'
 status: true
-uuid: 904e30ce-12b7-42ab-9900-d2239d7d13f2
+uuid: 131ffd59-8784-4bdc-9c20-32e8974095ea
 langcode: en
 type: node
 plugin: node_make_sticky_action

@@ -10,6 +10,12 @@ content:
     settings:
       size: '60'
       placeholder: ''
-hidden:
-  body: true
+  body:
+    type: text_textarea_with_summary
+    weight: -4
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+hidden: {  }
 status: true

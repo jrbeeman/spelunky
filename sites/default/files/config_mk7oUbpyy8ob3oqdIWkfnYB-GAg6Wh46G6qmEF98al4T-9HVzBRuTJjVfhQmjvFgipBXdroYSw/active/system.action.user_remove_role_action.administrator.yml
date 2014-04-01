@@ -1,0 +1,9 @@
+id: user_remove_role_action.administrator
+label: 'Remove the Administrator role from the selected users'
+status: true
+uuid: 8305010d-455b-4706-b100-ce5a57f30636
+langcode: en
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: administrator

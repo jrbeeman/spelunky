@@ -3,7 +3,7 @@ name: 'Plain text'
 weight: 10
 cache: true
 status: true
-uuid: 7aaac4c0-9197-49b5-bf00-0e3c6bcd93c3
+uuid: fe390fd9-336e-483e-8801-1ba058a88100
 langcode: en
 filters:
   filter_html_escape:

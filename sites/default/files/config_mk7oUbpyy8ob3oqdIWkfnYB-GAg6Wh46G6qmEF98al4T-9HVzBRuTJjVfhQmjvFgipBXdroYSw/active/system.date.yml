@@ -1,8 +1,8 @@
 country:
-  default: US
+  default: ''
 first_day: 0
 timezone:
-  default: America/Phoenix
+  default: UTC
   user:
     configurable: true
     warn: false

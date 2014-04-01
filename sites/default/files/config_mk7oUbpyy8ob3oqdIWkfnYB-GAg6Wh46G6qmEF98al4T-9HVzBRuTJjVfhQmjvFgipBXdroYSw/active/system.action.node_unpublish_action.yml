@@ -1,7 +1,7 @@
 id: node_unpublish_action
 label: 'Unpublish content'
 status: true
-uuid: 1c65e7df-2f4b-4f1c-a800-c67bca9aea79
+uuid: 4a96a843-449b-47db-ad49-730242f3183b
 langcode: en
 type: node
 plugin: node_unpublish_action

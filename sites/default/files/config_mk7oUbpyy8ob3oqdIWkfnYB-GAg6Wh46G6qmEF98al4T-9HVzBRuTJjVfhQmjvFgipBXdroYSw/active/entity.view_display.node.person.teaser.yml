@@ -3,8 +3,13 @@ uuid: b2bffd93-0fa3-4d12-af00-c2037d7cf7fb
 targetEntityType: node
 bundle: person
 mode: teaser
-content: {  }
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
 hidden:
   langcode: true
-  body: true
 status: true

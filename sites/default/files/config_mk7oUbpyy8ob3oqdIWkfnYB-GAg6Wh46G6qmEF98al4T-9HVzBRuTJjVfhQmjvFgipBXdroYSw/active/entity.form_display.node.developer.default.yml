@@ -16,6 +16,12 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     type: image_image
-hidden:
-  body: true
+  body:
+    type: text_textarea_with_summary
+    weight: -2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+hidden: {  }
 status: true

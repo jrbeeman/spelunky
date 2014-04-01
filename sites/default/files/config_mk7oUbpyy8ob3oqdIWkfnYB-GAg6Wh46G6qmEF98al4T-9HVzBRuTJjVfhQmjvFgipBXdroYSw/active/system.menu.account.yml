@@ -2,6 +2,6 @@ id: account
 label: 'User account menu'
 description: 'Links related to the user account.'
 status: true
-uuid: 86dd15e6-ef2d-4c71-b600-c88f96a5e165
+uuid: 898fccb3-d6c1-4a8a-9900-a55101b6a367
 langcode: en
 locked: true

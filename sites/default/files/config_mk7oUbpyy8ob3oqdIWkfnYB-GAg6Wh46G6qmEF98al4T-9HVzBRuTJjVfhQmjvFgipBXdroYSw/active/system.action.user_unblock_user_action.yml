@@ -1,7 +1,7 @@
 id: user_unblock_user_action
 label: 'Unblock the selected user(s)'
 status: true
-uuid: 91a9ab6d-e36e-4df1-af04-4c5d919e72e6
+uuid: a24be765-0c71-44b3-9936-542949140b87
 langcode: en
 type: user
 plugin: user_unblock_user_action

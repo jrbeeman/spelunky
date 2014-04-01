@@ -1,7 +1,7 @@
 id: html_yearless_date
 label: 'HTML Yearless date'
 status: true
-uuid: 2becc8a1-5b78-48c1-9b00-d1156f9a50f5
+uuid: d5eb63de-4fda-4167-b206-6d95bbb9e73f
 langcode: en
 locked: true
 pattern:

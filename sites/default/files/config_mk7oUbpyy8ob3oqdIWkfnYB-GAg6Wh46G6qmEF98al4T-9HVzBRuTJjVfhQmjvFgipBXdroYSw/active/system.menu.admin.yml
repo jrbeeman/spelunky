@@ -2,6 +2,6 @@ id: admin
 label: Administration
 description: 'Contains links to administrative tasks.'
 status: true
-uuid: 8fee418f-b449-4c08-b400-babc25e516b0
+uuid: 9559b1fe-f347-4553-ab42-6673c7091be3
 langcode: en
 locked: true

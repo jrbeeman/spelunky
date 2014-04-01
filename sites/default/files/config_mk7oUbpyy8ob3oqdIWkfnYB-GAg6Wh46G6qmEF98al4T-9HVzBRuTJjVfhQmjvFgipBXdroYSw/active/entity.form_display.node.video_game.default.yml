@@ -59,9 +59,16 @@ content:
       size: 60
       autocomplete_type: single
       placeholder: ''
+  field_tags:
+    type: taxonomy_autocomplete
+    weight: 8
+    settings:
+      size: 60
+      autocomplete_route_name: taxonomy.autocomplete
+      placeholder: ''
   field_website:
     type: link_default
-    weight: 8
+    weight: 9
     settings:
       placeholder_url: ''
       placeholder_title: ''

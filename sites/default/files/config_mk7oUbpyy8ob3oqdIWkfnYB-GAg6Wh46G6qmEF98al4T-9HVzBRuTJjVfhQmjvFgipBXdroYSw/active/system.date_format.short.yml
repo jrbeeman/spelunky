@@ -1,7 +1,7 @@
 id: short
 label: 'Default short date'
 status: true
-uuid: fdfed980-33d8-4ed8-a04e-7839b088539c
+uuid: 4fbcd690-6bd8-4cdd-850b-118283e8154b
 langcode: en
 locked: false
 pattern:
