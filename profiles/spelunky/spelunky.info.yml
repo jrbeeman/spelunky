@@ -1,7 +1,7 @@
 name: Spelinky
 type: profile
 description: "Gaming database install profile created for Acquia's Drupal 8 learning program."
-version: 8.x-1.x-dev
+version: VERSION
 core: 8.x
 dependencies:
   - block
