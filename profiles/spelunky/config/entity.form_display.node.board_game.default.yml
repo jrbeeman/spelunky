@@ -62,6 +62,13 @@ content:
       size: 60
       autocomplete_type: single
       placeholder: ''
+  field_tags:
+    type: taxonomy_autocomplete
+    weight: 9
+    settings:
+      size: 60
+      autocomplete_route_name: taxonomy.autocomplete
+      placeholder: ''
 hidden:
   field_designer: true
 status: true
