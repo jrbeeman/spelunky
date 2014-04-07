@@ -1,0 +1,17 @@
+id: node.game_list.body
+uuid: 86937af3-e94c-48f0-8907-7a6d40347fb1
+status: true
+langcode: en
+field_uuid: 2603d718-1cb9-46a5-9a09-9b05205fc861
+field_name: body
+entity_type: node
+bundle: game_list
+label: Description
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  text_processing: true
+  display_summary: false
+field_type: text_with_summary

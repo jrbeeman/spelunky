@@ -1,0 +1,22 @@
+id: node.game_list.field_games
+uuid: 256fecdd-f4ed-4529-9d08-8af6f530c0b5
+status: true
+langcode: en
+field_uuid: f4aa0511-289d-422b-a900-e5c1eb90640a
+field_name: field_games
+entity_type: node
+bundle: game_list
+label: Games
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      board_game: board_game
+      video_game: video_game
+    sort:
+      field: _none
+field_type: entity_reference

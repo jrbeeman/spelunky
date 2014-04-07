@@ -1,0 +1,14 @@
+id: node.field_games
+uuid: f4aa0511-289d-422b-a900-e5c1eb90640a
+status: true
+langcode: en
+name: field_games
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
