@@ -1841,7 +1841,8 @@ function drupal_generate_test_ua($prefix) {
 
   if (!isset($key) || $last_prefix != $prefix) {
     $last_prefix = $prefix;
-    $key_file = DRUPAL_ROOT . '/sites/simpletest/' . substr($prefix, 10) . '/.htkey';
+    $key_file_directory = DRUPAL_ROOT . '/sites/simpletest/' . substr($prefix, 10);
+    $key_file = $key_file_directory . '/.htkey';
     // When issuing an outbound HTTP client request from within an inbound test
     // request, then the outbound request has to use the same User-Agent header
     // as the inbound request. A newly generated private key for the same test
@@ -1857,6 +1858,7 @@ function drupal_generate_test_ua($prefix) {
     else {
       // Generate and save a new hash salt for a test run.
       // Consumed by drupal_valid_test_ua() before settings.php is loaded.
+      file_prepare_directory($key_file_directory);
       $private_key = Crypt::randomBytesBase64(55);
       file_put_contents($key_file, $private_key);
     }
