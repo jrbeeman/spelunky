@@ -69,4 +69,14 @@ class SpelunkyTest extends WebTestBase {
 
   }
 
+  /**
+   * Tests Developer content type creation.
+   */
+  function testSpelunkyDeveloper() {
+    $this->drupalGet('');
+    $this->assertLink(t('Home'));
+    $this->clickLink(t('Home'));
+    $this->assertResponse(200);
+  }
+
 }
