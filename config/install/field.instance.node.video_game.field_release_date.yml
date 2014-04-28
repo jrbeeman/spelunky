@@ -11,3 +11,7 @@ default_value: {  }
 default_value_function: ''
 settings: {  }
 field_type: datetime
+dependencies:
+  entity:
+    - field.field.node.field_release_date
+    - node.type.video_game

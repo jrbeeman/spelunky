@@ -12,3 +12,7 @@ default_value_function: ''
 settings:
   title: '1'
 field_type: link
+dependencies:
+  entity:
+    - field.field.node.field_website
+    - node.type.video_game

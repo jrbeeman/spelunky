@@ -12,3 +12,7 @@ default_value_function: ''
 settings:
   text_processing: 0
 field_type: text
+dependencies:
+  entity:
+    - field.field.node.field_play_time
+    - node.type.board_game

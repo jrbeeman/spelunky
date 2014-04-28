@@ -26,3 +26,7 @@ settings:
     width: null
     height: null
 field_type: image
+dependencies:
+  entity:
+    - field.field.node.field_logo
+    - node.type.developer

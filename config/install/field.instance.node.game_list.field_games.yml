@@ -18,3 +18,7 @@ settings:
     sort:
       field: _none
 field_type: entity_reference
+dependencies:
+  entity:
+    - field.field.node.field_games
+    - node.type.game_list
