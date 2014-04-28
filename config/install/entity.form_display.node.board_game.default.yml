@@ -1,0 +1,87 @@
+id: node.board_game.default
+targetEntityType: node
+bundle: board_game
+mode: default
+content:
+  title:
+    type: string
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+  field_genre:
+    type: options_select
+    weight: 1
+    settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+  field_person:
+    type: entity_reference_autocomplete
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      autocomplete_type: tags
+      placeholder: ''
+  field_publisher:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      autocomplete_type: tags
+      placeholder: ''
+  field_release_date:
+    type: datetime_default
+    weight: 6
+    settings: {  }
+  field_play_time:
+    type: text_textfield
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+  field_player_num:
+    type: number
+    weight: 8
+    settings:
+      placeholder: ''
+  field_tags:
+    type: taxonomy_autocomplete
+    weight: 9
+    settings:
+      size: 60
+      autocomplete_route_name: taxonomy.autocomplete
+      placeholder: ''
+hidden: {  }
+status: true
+dependencies:
+  entity:
+    - field.instance.node.board_game.body
+    - field.instance.node.board_game.field_genre
+    - field.instance.node.board_game.field_image
+    - field.instance.node.board_game.field_person
+    - field.instance.node.board_game.field_play_time
+    - field.instance.node.board_game.field_player_num
+    - field.instance.node.board_game.field_publisher
+    - field.instance.node.board_game.field_release_date
+    - field.instance.node.board_game.field_tags
+    - node.type.board_game
+  module:
+    - datetime
+    - entity_reference
+    - image
+    - options
+    - taxonomy
+    - text

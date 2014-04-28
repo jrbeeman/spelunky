@@ -1,0 +1,37 @@
+id: node.board_game.teaser
+targetEntityType: node
+bundle: board_game
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+  field_genre: true
+  field_image: true
+  field_person: true
+  field_player_num: true
+  field_play_time: true
+  field_publisher: true
+  field_release_date: true
+  field_tags: true
+status: true
+dependencies:
+  entity:
+    - entity.view_mode.node.teaser
+    - field.instance.node.board_game.body
+    - field.instance.node.board_game.field_genre
+    - field.instance.node.board_game.field_image
+    - field.instance.node.board_game.field_person
+    - field.instance.node.board_game.field_play_time
+    - field.instance.node.board_game.field_player_num
+    - field.instance.node.board_game.field_publisher
+    - field.instance.node.board_game.field_release_date
+    - field.instance.node.board_game.field_tags
+    - node.type.board_game
+  module:
+    - text

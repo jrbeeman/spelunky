@@ -16,8 +16,8 @@ settings:
       person: person
     sort:
       field: _none
-field_type: entity_reference
 dependencies:
   entity:
     - field.field.node.field_person
     - node.type.board_game
+field_type: entity_reference

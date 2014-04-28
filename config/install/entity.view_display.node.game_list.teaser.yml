@@ -1,0 +1,23 @@
+id: node.game_list.teaser
+targetEntityType: node
+bundle: game_list
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+  field_games: true
+status: true
+dependencies:
+  entity:
+    - entity.view_mode.node.teaser
+    - field.instance.node.game_list.body
+    - field.instance.node.game_list.field_games
+    - node.type.game_list
+  module:
+    - text

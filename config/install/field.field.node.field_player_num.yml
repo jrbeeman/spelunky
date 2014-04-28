@@ -4,7 +4,8 @@ langcode: en
 name: field_player_num
 entity_type: node
 type: integer
-settings: {  }
+settings:
+  unsigned: ''
 module: Core
 locked: false
 cardinality: 1

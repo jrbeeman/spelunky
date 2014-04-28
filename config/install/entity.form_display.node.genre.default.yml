@@ -1,0 +1,26 @@
+id: node.genre.default
+targetEntityType: node
+bundle: genre
+mode: default
+content:
+  title:
+    type: string
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+  body:
+    type: text_textarea_with_summary
+    weight: -4
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+hidden: {  }
+status: true
+dependencies:
+  entity:
+    - field.instance.node.genre.body
+    - node.type.genre
+  module:
+    - text

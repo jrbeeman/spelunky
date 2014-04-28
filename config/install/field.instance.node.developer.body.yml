@@ -1,0 +1,19 @@
+id: node.developer.body
+status: true
+langcode: en
+field_name: body
+entity_type: node
+bundle: developer
+label: Body
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: true
+  text_processing: true
+dependencies:
+  entity:
+    - field.field.node.body
+    - node.type.developer
+field_type: text_with_summary

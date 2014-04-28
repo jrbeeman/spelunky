@@ -1,0 +1,23 @@
+id: node.publisher.teaser
+targetEntityType: node
+bundle: publisher
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+  field_logo: true
+status: true
+dependencies:
+  entity:
+    - entity.view_mode.node.teaser
+    - field.instance.node.publisher.body
+    - field.instance.node.publisher.field_logo
+    - node.type.publisher
+  module:
+    - text

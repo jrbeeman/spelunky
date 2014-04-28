@@ -15,3 +15,4 @@ settings:
     submitted: true
 status: true
 langcode: en
+dependencies: {  }

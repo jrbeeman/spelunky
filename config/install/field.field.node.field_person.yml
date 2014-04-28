@@ -13,5 +13,5 @@ translatable: false
 indexes: {  }
 dependencies:
   module:
-    - node
     - entity_reference
+    - node

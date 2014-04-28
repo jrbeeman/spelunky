@@ -11,6 +11,7 @@ settings:
       parent: 0
   target_type: taxonomy_term
   options_list_callback: null
+  target_bundle: null
 module: taxonomy
 locked: false
 cardinality: -1

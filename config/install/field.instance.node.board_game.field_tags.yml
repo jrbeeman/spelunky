@@ -9,9 +9,10 @@ description: ''
 required: false
 default_value: {  }
 default_value_function: ''
-settings: {  }
-field_type: taxonomy_term_reference
+settings:
+  handler: default
 dependencies:
   entity:
     - field.field.node.field_tags
     - node.type.board_game
+field_type: taxonomy_term_reference

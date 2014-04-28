@@ -1,0 +1,84 @@
+id: node.video_game.default
+targetEntityType: node
+bundle: video_game
+mode: default
+content:
+  field_image:
+    type: image
+    weight: 0
+    settings:
+      image_style: ''
+      image_link: ''
+    label: hidden
+  body:
+    type: text_default
+    weight: 1
+    settings: {  }
+    label: hidden
+  field_genre:
+    type: entity_reference_label
+    weight: 2
+    settings:
+      link: true
+    label: inline
+  field_publisher:
+    type: entity_reference_label
+    weight: 3
+    settings:
+      link: true
+    label: inline
+  field_release_date:
+    type: datetime_default
+    weight: 4
+    settings:
+      format_type: medium
+    label: inline
+  field_platform:
+    type: entity_reference_label
+    weight: 5
+    settings:
+      link: true
+    label: inline
+  field_website:
+    type: link
+    weight: 6
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    label: above
+  field_developer:
+    type: entity_reference_label
+    weight: 7
+    settings:
+      link: true
+    label: inline
+  field_tags:
+    type: taxonomy_term_reference_link
+    weight: 8
+    settings: {  }
+    label: inline
+hidden:
+  langcode: true
+status: true
+dependencies:
+  entity:
+    - field.instance.node.video_game.body
+    - field.instance.node.video_game.field_developer
+    - field.instance.node.video_game.field_genre
+    - field.instance.node.video_game.field_image
+    - field.instance.node.video_game.field_platform
+    - field.instance.node.video_game.field_publisher
+    - field.instance.node.video_game.field_release_date
+    - field.instance.node.video_game.field_tags
+    - field.instance.node.video_game.field_website
+    - node.type.video_game
+  module:
+    - datetime
+    - entity_reference
+    - image
+    - link
+    - taxonomy
+    - text

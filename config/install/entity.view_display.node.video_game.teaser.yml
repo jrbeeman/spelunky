@@ -1,0 +1,37 @@
+id: node.video_game.teaser
+targetEntityType: node
+bundle: video_game
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+  field_genre: true
+  field_image: true
+  field_publisher: true
+  field_release_date: true
+  field_tags: true
+  field_developer: true
+  field_platform: true
+  field_website: true
+status: true
+dependencies:
+  entity:
+    - entity.view_mode.node.teaser
+    - field.instance.node.video_game.body
+    - field.instance.node.video_game.field_developer
+    - field.instance.node.video_game.field_genre
+    - field.instance.node.video_game.field_image
+    - field.instance.node.video_game.field_platform
+    - field.instance.node.video_game.field_publisher
+    - field.instance.node.video_game.field_release_date
+    - field.instance.node.video_game.field_tags
+    - field.instance.node.video_game.field_website
+    - node.type.video_game
+  module:
+    - text

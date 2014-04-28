@@ -4,6 +4,14 @@ core: 8.x
 description: ''
 status: true
 display:
+  games_list_rest:
+    display_plugin: rest_export
+    id: games_list_rest
+    display_title: 'REST export'
+    position: 1
+    provider: rest
+    display_options:
+      path: api/games
   default:
     display_plugin: default
     id: default
@@ -182,16 +190,11 @@ display:
           not: false
           plugin_id: numeric
           provider: views
-  games_list_rest:
-    display_plugin: rest_export
-    id: games_list_rest
-    display_title: 'REST export'
-    position: 1
-    provider: rest
-    display_options:
-      path: api/games
 label: games_service
 module: views
 id: games_service
 tag: ''
 langcode: en
+dependencies:
+  module:
+    - node

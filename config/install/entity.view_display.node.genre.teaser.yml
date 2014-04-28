@@ -1,0 +1,21 @@
+id: node.genre.teaser
+targetEntityType: node
+bundle: genre
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+status: true
+dependencies:
+  entity:
+    - entity.view_mode.node.teaser
+    - field.instance.node.genre.body
+    - node.type.genre
+  module:
+    - text

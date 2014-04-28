@@ -11,8 +11,9 @@ default_value: {  }
 default_value_function: ''
 settings:
   title: '1'
-field_type: link
+  link_type: 17
 dependencies:
   entity:
     - field.field.node.field_website
     - node.type.video_game
+field_type: link

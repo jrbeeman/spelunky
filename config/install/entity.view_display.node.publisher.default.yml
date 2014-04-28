@@ -1,0 +1,28 @@
+id: node.publisher.default
+targetEntityType: node
+bundle: publisher
+mode: default
+content:
+  field_logo:
+    type: image
+    weight: 0
+    settings:
+      image_style: ''
+      image_link: ''
+    label: hidden
+  body:
+    type: text_default
+    weight: 1
+    settings: {  }
+    label: hidden
+hidden:
+  langcode: true
+status: true
+dependencies:
+  entity:
+    - field.instance.node.publisher.body
+    - field.instance.node.publisher.field_logo
+    - node.type.publisher
+  module:
+    - image
+    - text

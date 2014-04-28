@@ -25,8 +25,9 @@ settings:
     title: ''
     width: null
     height: null
-field_type: image
+  handler: default
 dependencies:
   entity:
     - field.field.node.field_logo
     - node.type.platform
+field_type: image

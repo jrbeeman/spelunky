@@ -16,8 +16,8 @@ settings:
       publisher: publisher
     sort:
       field: _none
-field_type: entity_reference
 dependencies:
   entity:
     - field.field.node.field_publisher
     - node.type.video_game
+field_type: entity_reference

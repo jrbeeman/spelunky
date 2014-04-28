@@ -16,8 +16,8 @@ settings:
       developer: developer
     sort:
       field: _none
-field_type: entity_reference
 dependencies:
   entity:
     - field.field.node.field_developer
     - node.type.video_game
+field_type: entity_reference

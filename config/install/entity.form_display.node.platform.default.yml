@@ -1,0 +1,34 @@
+id: node.platform.default
+targetEntityType: node
+bundle: platform
+mode: default
+content:
+  title:
+    type: string
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+  field_logo:
+    type: image_image
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+hidden: {  }
+status: true
+dependencies:
+  entity:
+    - field.instance.node.platform.body
+    - field.instance.node.platform.field_logo
+    - node.type.platform
+  module:
+    - image
+    - text

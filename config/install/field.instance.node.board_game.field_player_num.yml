@@ -14,8 +14,8 @@ settings:
   max: null
   prefix: ''
   suffix: ''
-field_type: integer
 dependencies:
   entity:
     - field.field.node.field_player_num
     - node.type.board_game
+field_type: integer

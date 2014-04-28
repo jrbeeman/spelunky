@@ -12,5 +12,5 @@ translatable: false
 indexes: {  }
 dependencies:
   module:
-    - node
     - link
+    - node

@@ -4,6 +4,7 @@ weight: 10
 cache: true
 status: true
 langcode: en
+dependencies: {  }
 filters:
   filter_html_escape:
     id: filter_html_escape
