@@ -1,8 +1,6 @@
 id: node.video_game.field_genre
-uuid: cfb6014d-c292-4b6a-a704-4b52a6414d0e
 status: true
 langcode: en
-field_uuid: 5da0c187-271d-45d4-9d00-a73ca34b4f07
 field_name: field_genre
 entity_type: node
 bundle: video_game

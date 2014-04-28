@@ -1,5 +1,4 @@
 id: node.publisher.default
-uuid: ac18419d-2a09-439c-b700-da7f34e89b22
 targetEntityType: node
 bundle: publisher
 mode: default

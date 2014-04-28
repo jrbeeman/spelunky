@@ -1,5 +1,4 @@
 id: node.video_game.default
-uuid: 352c9800-f31b-426f-b054-84c7dfc1464a
 targetEntityType: node
 bundle: video_game
 mode: default

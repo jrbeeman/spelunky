@@ -3,7 +3,6 @@ name: 'Restricted HTML'
 weight: 0
 cache: true
 status: true
-uuid: 4385a19e-369b-4377-bb05-5a9cd03e6a00
 langcode: en
 filters:
   filter_html:

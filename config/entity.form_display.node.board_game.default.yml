@@ -1,5 +1,4 @@
 id: node.board_game.default
-uuid: 9559ad39-5aba-4667-8200-d10ce3b726e6
 targetEntityType: node
 bundle: board_game
 mode: default

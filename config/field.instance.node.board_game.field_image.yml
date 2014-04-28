@@ -1,8 +1,6 @@
 id: node.board_game.field_image
-uuid: c7c21b09-3562-4ffb-8000-a4b9467aa08e
 status: true
 langcode: en
-field_uuid: 0e3f929f-6cf8-4b29-8407-7cf81aec866a
 field_name: field_image
 entity_type: node
 bundle: board_game

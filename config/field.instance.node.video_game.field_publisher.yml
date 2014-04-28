@@ -1,8 +1,6 @@
 id: node.video_game.field_publisher
-uuid: ec64f657-6555-49cc-bf00-a9df2577b17b
 status: true
 langcode: en
-field_uuid: 86085263-d15f-4f1f-8f00-aa4281839c8e
 field_name: field_publisher
 entity_type: node
 bundle: video_game

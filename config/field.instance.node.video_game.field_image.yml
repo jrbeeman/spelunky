@@ -1,8 +1,6 @@
 id: node.video_game.field_image
-uuid: e4159c7c-87a5-4af6-a200-eb50fca86ac9
 status: true
 langcode: en
-field_uuid: 0e3f929f-6cf8-4b29-8407-7cf81aec866a
 field_name: field_image
 entity_type: node
 bundle: video_game

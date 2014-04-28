@@ -194,5 +194,4 @@ label: games_service
 module: views
 id: games_service
 tag: ''
-uuid: 2fb41449-77f4-4477-af00-fea7f152b6a8
 langcode: en

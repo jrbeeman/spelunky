@@ -3,7 +3,6 @@ name: 'Basic HTML'
 weight: 0
 cache: true
 status: true
-uuid: df9a3fdf-fef8-425d-af00-e7f4587db71d
 langcode: en
 filters:
   filter_html:

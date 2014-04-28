@@ -1,8 +1,6 @@
 id: node.developer.body
-uuid: 76b5323c-de74-4d6c-bd31-49132e2d49b4
 status: true
 langcode: en
-field_uuid: 2603d718-1cb9-46a5-9a09-9b05205fc861
 field_name: body
 entity_type: node
 bundle: developer

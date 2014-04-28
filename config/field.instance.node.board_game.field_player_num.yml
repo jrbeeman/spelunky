@@ -1,8 +1,6 @@
 id: node.board_game.field_player_num
-uuid: 023407ed-7217-444b-8900-fd1b9cc6763e
 status: true
 langcode: en
-field_uuid: 80ce6873-ff1a-4a6d-8400-fa721c6792d8
 field_name: field_player_num
 entity_type: node
 bundle: board_game

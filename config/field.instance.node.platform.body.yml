@@ -1,8 +1,6 @@
 id: node.platform.body
-uuid: b7cd6d5c-0fc0-4d2a-bf02-0282cad1797d
 status: true
 langcode: en
-field_uuid: 2603d718-1cb9-46a5-9a09-9b05205fc861
 field_name: body
 entity_type: node
 bundle: platform

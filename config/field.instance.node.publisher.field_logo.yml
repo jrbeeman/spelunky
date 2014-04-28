@@ -1,8 +1,6 @@
 id: node.publisher.field_logo
-uuid: 56e40928-ef92-409a-8e00-dce983eca4ac
 status: true
 langcode: en
-field_uuid: 57220fad-5943-4294-be00-cbcf8a259491
 field_name: field_logo
 entity_type: node
 bundle: publisher

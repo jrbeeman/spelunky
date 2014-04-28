@@ -1,5 +1,4 @@
 id: node.person.default
-uuid: 43d04ccd-9602-4717-bc00-c63c64680d7e
 targetEntityType: node
 bundle: person
 mode: default

@@ -1,8 +1,6 @@
 id: node.platform.field_logo
-uuid: 0b7799e8-107a-450b-9a24-361bea635c12
 status: true
 langcode: en
-field_uuid: 57220fad-5943-4294-be00-cbcf8a259491
 field_name: field_logo
 entity_type: node
 bundle: platform

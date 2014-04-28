@@ -22,8 +22,8 @@ dependencies:
   - help
   - image
   - link
-  - menu
   - menu_link
+  - menu_ui
   - node
   - options
   - rest

@@ -1,8 +1,6 @@
 id: node.developer.field_logo
-uuid: 5afa99e3-09ee-4b33-8700-f7f70aeaa52d
 status: true
 langcode: en
-field_uuid: 57220fad-5943-4294-be00-cbcf8a259491
 field_name: field_logo
 entity_type: node
 bundle: developer

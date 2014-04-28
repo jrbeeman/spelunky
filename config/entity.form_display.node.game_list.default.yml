@@ -1,5 +1,4 @@
 id: node.game_list.default
-uuid: efa5bb64-021a-4de4-b350-80eb05d3d3da
 targetEntityType: node
 bundle: game_list
 mode: default

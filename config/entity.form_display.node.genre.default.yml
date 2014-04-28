@@ -1,5 +1,4 @@
 id: node.genre.default
-uuid: 5e481092-2003-40da-851d-298078edae20
 targetEntityType: node
 bundle: genre
 mode: default

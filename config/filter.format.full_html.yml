@@ -3,7 +3,6 @@ name: 'Full HTML'
 weight: 1
 cache: true
 status: true
-uuid: edaa28cb-6e30-4274-9a00-c87390eed0a1
 langcode: en
 filters:
   filter_caption:
