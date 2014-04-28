@@ -1,0 +1,21 @@
+id: node.board_game.field_publisher
+uuid: 6e6e7cb4-f635-49cb-a200-ff64665e9c6c
+status: true
+langcode: en
+field_uuid: 86085263-d15f-4f1f-8f00-aa4281839c8e
+field_name: field_publisher
+entity_type: node
+bundle: board_game
+label: Publisher
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      publisher: publisher
+    sort:
+      field: _none
+field_type: entity_reference

@@ -1,0 +1,21 @@
+id: node.video_game.field_platform
+uuid: 8f1f4a87-d28c-4caa-9243-6793f375d429
+status: true
+langcode: en
+field_uuid: 0511dc75-3e42-4593-8b04-4c7f1d897de0
+field_name: field_platform
+entity_type: node
+bundle: video_game
+label: Platform
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      platform: platform
+    sort:
+      field: _none
+field_type: entity_reference

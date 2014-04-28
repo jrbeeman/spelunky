@@ -1,0 +1,39 @@
+name: Spelinky
+type: profile
+description: "Gaming database install profile created for Acquia's Drupal 8 learning program."
+version: VERSION
+core: 8.x
+dependencies:
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - datetime
+  - dblog
+  - editor
+  - entity
+  - entity_reference
+  - field
+  - field_ui
+  - file
+  - filter
+  - hal
+  - help
+  - image
+  - link
+  - menu
+  - menu_link
+  - node
+  - options
+  - rest
+  - serialization
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - update
+  - user
+  - views
+  - views_ui

@@ -1,0 +1,14 @@
+id: node.field_release_date
+uuid: 6df18d6d-8e5c-4c2a-a300-b1bcc85dce6e
+status: true
+langcode: en
+name: field_release_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }

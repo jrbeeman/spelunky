@@ -1,0 +1,16 @@
+id: node.platform.teaser
+uuid: 99c8a303-b1eb-49f7-9700-bff1c7aac38d
+targetEntityType: node
+bundle: platform
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+  field_logo: true
+status: true

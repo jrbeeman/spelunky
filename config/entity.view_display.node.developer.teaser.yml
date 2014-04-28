@@ -1,0 +1,16 @@
+id: node.developer.teaser
+uuid: a9a314db-e19d-4181-af08-8ea2fb894994
+targetEntityType: node
+bundle: developer
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+  field_logo: true
+status: true

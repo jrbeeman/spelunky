@@ -1,0 +1,14 @@
+id: node.field_genre
+uuid: 5da0c187-271d-45d4-9d00-a73ca34b4f07
+status: true
+langcode: en
+name: field_genre
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }

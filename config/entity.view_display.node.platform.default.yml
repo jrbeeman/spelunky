@@ -1,0 +1,21 @@
+id: node.platform.default
+uuid: c41f9aeb-ede9-4ba8-8444-68298b8b294f
+targetEntityType: node
+bundle: platform
+mode: default
+content:
+  field_logo:
+    weight: -4
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    type: image
+  body:
+    label: hidden
+    type: text_default
+    weight: -3
+    settings: {  }
+hidden:
+  langcode: true
+status: true

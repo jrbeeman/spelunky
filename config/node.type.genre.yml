@@ -1,0 +1,18 @@
+type: genre
+name: Genre
+description: ''
+help: ''
+has_title: true
+title_label: Name
+settings:
+  node:
+    options:
+      status: true
+      promote: false
+      sticky: false
+      revision: true
+    preview: 1
+    submitted: false
+status: true
+uuid: f1681e91-4245-42ac-aa00-fe55bd244bba
+langcode: en

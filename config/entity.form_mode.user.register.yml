@@ -1,0 +1,7 @@
+id: user.register
+label: Register
+targetEntityType: user
+status: true
+cache: true
+uuid: b72f8815-d501-47a1-9833-51dea95a2c33
+langcode: en

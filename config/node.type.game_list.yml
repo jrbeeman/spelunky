@@ -1,0 +1,18 @@
+type: game_list
+name: 'Game list'
+description: ''
+help: ''
+has_title: true
+title_label: Name
+settings:
+  node:
+    options:
+      status: true
+      promote: false
+      sticky: false
+      revision: false
+    preview: 1
+    submitted: true
+status: true
+uuid: 2f8de0d2-b6a5-4ddd-ab5a-9098793545e5
+langcode: en
