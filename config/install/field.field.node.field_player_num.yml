@@ -10,3 +10,6 @@ locked: false
 cardinality: 1
 translatable: false
 indexes: {  }
+dependencies:
+  module:
+    - node

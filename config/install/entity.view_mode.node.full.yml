@@ -1,6 +1,0 @@
-id: node.full
-label: 'Full content'
-targetEntityType: node
-status: false
-cache: true
-langcode: en

@@ -1,6 +1,0 @@
-id: user.register
-label: Register
-targetEntityType: user
-status: true
-cache: true
-langcode: en
