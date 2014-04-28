@@ -37,3 +37,6 @@ dependencies:
   - user
   - views
   - views_ui
+themes:
+  - bartik
+  - seven
