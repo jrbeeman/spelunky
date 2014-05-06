@@ -161,6 +161,13 @@ display:
               - views
               - views
               - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
           default_action: default
           exception:
             value: all
@@ -171,6 +178,8 @@ display:
           default_argument_type: query_parameter
           default_argument_options:
             query_param: genre_id
+            fallback: ''
+            multiple: or
           default_argument_skip_url: false
           summary_options:
             base_path: ''
@@ -184,14 +193,14 @@ display:
           specify_validation: true
           validate:
             type: 'entity:node'
-            fail: ignore
+            fail: empty
           validate_options:
             bundles:
               genre: genre
             operation: view
-            multiple: '0'
+            multiple: '1'
             access: 0
-          break_phrase: false
+          break_phrase: true
           not: false
           plugin_id: numeric
           provider: views
@@ -206,6 +215,17 @@ display:
             module:
               - views
               - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
+              - views
           default_action: default
           exception:
             value: all
@@ -216,6 +236,8 @@ display:
           default_argument_type: query_parameter
           default_argument_options:
             query_param: publisher_id
+            fallback: ''
+            multiple: or
           default_argument_skip_url: false
           summary_options:
             base_path: ''
@@ -229,14 +251,14 @@ display:
           specify_validation: true
           validate:
             type: 'entity:node'
-            fail: ignore
+            fail: empty
           validate_options:
             bundles:
               publisher: publisher
             operation: view
-            multiple: '0'
+            multiple: '1'
             access: 0
-          break_phrase: false
+          break_phrase: true
           not: false
           plugin_id: numeric
           provider: views
